@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>About</ion-title>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p class="ion-text-center">
+    <img src="assets/LOGO.PNG" width="50%">
+  </p>
+  <ion-grid fixed>
+    <ion-row >
+      <ion-col size="6" >
+        <ion-button [routerLink]="['/aboutus']" expand="full" fill="outline">
+          <ion-icon slot="end" name="clipboard-outline"></ion-icon>
+          About 
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button [routerLink]="['/contact']" expand="full" fill="outline">
+          <ion-icon slot="end" name="call-outline"></ion-icon>
+          Contact 
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-button 
+  expand="block" 
+  shape="round" 
+  color="primary" 
+  routerLink="/faq"
+  size="small"
+  fill="outline">
+   FAQ
+  </ion-button>
+
+  <p>All Rights Reserved.</p>
+
+</ion-content>

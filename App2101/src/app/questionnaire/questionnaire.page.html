@@ -1,0 +1,363 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="ion-text-center">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Questionnaire</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content > 
+    <ion-card>
+      <ion-card-content color="primary">
+        <p>Please take a few minutes to fill out this survey on the overall status of your mental health. We value your feedback and your responses will be kept confidential. Thank you for your input.</p>
+      </ion-card-content>
+    </ion-card> 
+    
+    <form action="/result.page.html" id="result" novalidate>
+    <ion-card>
+  <ion-card-header> 
+  Question 1  
+  </ion-card-header>
+  <ion-card-content>
+    During the past 4 weeks, have you had any problems with your work or daily life due to your physical health?
+  </ion-card-content>
+  <ion-list>
+    <ion-radio-group>
+      <ion-item>
+        <ion-label>Yes</ion-label>
+        <ion-radio slot="end" value="Yes"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="end" value="No"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  </ion-card>  
+
+  <ion-card>
+    <ion-card-header> 
+    Question 2 
+    </ion-card-header>
+    <ion-card-content>
+      During the past 4 weeks, have you had any problems with your work or daily life due to any emotional problems, such as feeling depressed, sad or anxious? 
+    </ion-card-content>
+    <ion-list>
+      <ion-radio-group>
+        <ion-item>
+          <ion-label>Yes</ion-label>
+          <ion-radio slot="end" value="Yes"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="end" value="No"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header> 
+      Question 3 
+      </ion-card-header>
+      <ion-card-content>
+        Overall how would you rate your mental health? 
+      </ion-card-content>
+      <ion-list>
+        <ion-radio-group>
+          <ion-item>
+            <ion-label>Excellent</ion-label>
+            <ion-radio slot="end" value="Excellent"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Average</ion-label>
+            <ion-radio slot="end" value="Average"></ion-radio>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>Poor</ion-label>
+            <ion-radio slot="end" value="Poor"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header> 
+        Question 4 
+        </ion-card-header>
+        <ion-card-content>
+          Have you felt particularly low or down for more than 2 weeks in a row?        
+        </ion-card-content>
+        <ion-list>
+          <ion-radio-group>
+            <ion-item>
+              <ion-label>Very often</ion-label>
+              <ion-radio slot="end" value="Very"></ion-radio>
+            </ion-item>
+        
+            <ion-item>
+              <ion-label>Somewhat often</ion-label>
+              <ion-radio slot="end" value="Somewhat"></ion-radio>
+            </ion-item>
+  
+            <ion-item>
+              <ion-label>Not at all</ion-label>
+              <ion-radio slot="end" value="Not"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-header> 
+          Question 5 
+          </ion-card-header>
+          <ion-card-content>
+            During the past two weeks, how often has your mental health affected your relationships? 
+            </ion-card-content>         
+            <ion-list>
+            <ion-radio-group>
+              <ion-item>
+                <ion-label>Very often</ion-label>
+                <ion-radio slot="end" value="Very"></ion-radio>
+              </ion-item>
+          
+              <ion-item>
+                <ion-label>Somewhat often</ion-label>
+                <ion-radio slot="end" value="Somewhat"></ion-radio>
+              </ion-item>
+    
+              <ion-item>
+                <ion-label>Not at all</ion-label>
+                <ion-radio slot="end" value="Not"></ion-radio>
+              </ion-item>
+            </ion-radio-group>
+          </ion-list>
+          </ion-card>
+     
+          <ion-card>
+            <ion-card-header> 
+            Question 6 
+            </ion-card-header>
+            <ion-card-content>
+              Have you ever been diagnosed with a mental disorder before?  
+              </ion-card-content>  
+              <ion-list>         
+              <ion-radio-group>
+                <ion-item>
+                  <ion-label>Yes</ion-label>
+                  <ion-radio slot="end" value="Yes"></ion-radio>
+                </ion-item>
+            
+                <ion-item>
+                  <ion-label>No</ion-label>
+                  <ion-radio slot="end" value="No"></ion-radio>
+                </ion-item>
+      
+              </ion-radio-group>
+            </ion-list>
+            </ion-card>
+
+            <ion-card>
+              <ion-card-header> 
+              Question 7
+              </ion-card-header>
+              <ion-card-content>
+                When did you last get your mental health examination done?    
+                </ion-card-content>
+               <ion-list>
+              <ion-radio-group>
+                <ion-item>
+                    <ion-label>6 months ago</ion-label>
+                    <ion-radio slot="end" value="6m"></ion-radio>
+                  </ion-item>
+              
+                  <ion-item>
+                    <ion-label>A year ago</ion-label>
+                    <ion-radio slot="end" value="Year"></ion-radio>
+                  </ion-item>
+
+                  <ion-item>
+                    <ion-label>More than a year ago</ion-label>
+                    <ion-radio slot="end" value="More"></ion-radio>
+                  </ion-item>
+        
+                </ion-radio-group>
+              </ion-list>
+              </ion-card>
+
+              <ion-card>
+                <ion-card-header> 
+                Question 8
+                </ion-card-header>
+                <ion-card-content>
+                  Is there a history of mental disorder in your family?
+                  </ion-card-content>
+                   <ion-list>
+                 <ion-radio-group>
+                    <ion-item>
+                      <ion-label>Yes</ion-label>
+                      <ion-radio slot="end" value="Yes"></ion-radio>
+                    </ion-item>
+                
+                    <ion-item>
+                      <ion-label>No</ion-label>
+                      <ion-radio slot="end" value="No"></ion-radio>
+                    </ion-item>
+          
+                  </ion-radio-group>
+                </ion-list>
+                </ion-card>
+
+                <ion-card>
+                  <ion-card-header> 
+                  Question 9
+                  </ion-card-header>
+                  <ion-card-content>
+                    Have you seen a therapist in the recent past?
+                    </ion-card-content>
+                    <ion-list>
+                   <ion-radio-group>
+                     <ion-item>
+                        <ion-label>Yes</ion-label>
+                        <ion-radio slot="end" value="Yes"></ion-radio>
+                      </ion-item>
+                  
+                      <ion-item>
+                        <ion-label>No</ion-label>
+                        <ion-radio slot="end" value="No"></ion-radio>
+                      </ion-item>
+            
+                    </ion-radio-group>
+                  </ion-list>
+                  </ion-card>
+
+                  <ion-card>
+                    <ion-card-header> 
+                    Question 10
+                    </ion-card-header>
+                    <ion-card-content>
+                      Are you currently taking any medication?
+                      </ion-card-content>
+                    <ion-list>
+                    <ion-radio-group>
+                       <ion-item>
+                          <ion-label>Yes</ion-label>
+                          <ion-radio slot="end" value="Yes"></ion-radio>
+                        </ion-item>
+                    
+                        <ion-item>
+                          <ion-label>No</ion-label>
+                          <ion-radio slot="end" value="No"></ion-radio>
+                        </ion-item>
+              
+                      </ion-radio-group>
+                    </ion-list>
+                    </ion-card> 
+                    
+                    <ion-card>
+                      <ion-card-header> 
+                      Question 11
+                      </ion-card-header>
+                      <ion-card-content>
+                        How many hours do you sleep per day?
+                        </ion-card-content>
+                       <ion-list>
+                      <ion-radio-group>
+                         <ion-item>
+                            <ion-label>Less than 4</ion-label>
+                            <ion-radio slot="end" value="Less4"></ion-radio>
+                          </ion-item>
+                      
+                          <ion-item>
+                            <ion-label>4-6</ion-label>
+                            <ion-radio slot="end" value="4-6"></ion-radio>
+                          </ion-item>
+
+                          <ion-item>
+                            <ion-label>7-9</ion-label>
+                            <ion-radio slot="end" value="7-9"></ion-radio>
+                          </ion-item>
+
+                          <ion-item>
+                            <ion-label>9+</ion-label>
+                            <ion-radio slot="end" value="9+"></ion-radio>
+                          </ion-item>
+                
+                        </ion-radio-group>
+                      </ion-list>
+                      </ion-card>
+
+                      <ion-card>
+                        <ion-card-header> 
+                        Question 12
+                        </ion-card-header>
+                        <ion-card-content>
+                          How is your quality of sleep?
+                          </ion-card-content>
+                         <ion-list>
+                        <ion-radio-group>
+                           <ion-item>
+                              <ion-label>Bad</ion-label>
+                              <ion-radio slot="end" value="Bad"></ion-radio>
+                            </ion-item>
+                        
+                            <ion-item>
+                              <ion-label>Normal</ion-label>
+                              <ion-radio slot="end" value="Normal"></ion-radio>
+                            </ion-item>
+
+                            <ion-item>
+                              <ion-label>Good</ion-label>
+                              <ion-radio slot="end" value="Good"></ion-radio>
+                            </ion-item>
+                  
+                          </ion-radio-group>
+                        </ion-list>
+                        </ion-card> 
+
+                        <ion-card>
+                          <ion-card-header> 
+                          Question 13
+                          </ion-card-header>
+                          <ion-card-content>
+                            How often do you feel positive about your life?
+                            </ion-card-content>
+                           <ion-list>
+                          <ion-radio-group>
+                             <ion-item>
+                                <ion-label>Never</ion-label>
+                                <ion-radio slot="end" value="Never"></ion-radio>
+                              </ion-item>
+                          
+                              <ion-item>
+                                <ion-label>Sometimes</ion-label>
+                                <ion-radio slot="end" value="Sometimes"></ion-radio>
+                              </ion-item>
+  
+                              <ion-item>
+                                <ion-label>Always</ion-label>
+                                <ion-radio slot="end" value="Always"></ion-radio>
+                              </ion-item>
+                    
+                            </ion-radio-group>
+                          </ion-list>
+                          </ion-card>
+
+                        </form>
+
+  <br>
+  <ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/result">
+   Submit
+  </ion-button>
+  
+  </ion-content>

@@ -1,0 +1,165 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="ion-text-center">
+    <ion-title>Home</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-slides>
+
+  <ion-slide>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Meditation</ion-card-title>
+    <ion-card-content class="ion-text-justify">
+      <img src="assets/meditation.jfif">
+      <br>
+      <p>When we meditate, we inject far-reaching and long-lasting benefits into our lives: We lower our stress levels, we get to know our pain, we connect better, we improve our focus, and we're kinder to ourselves.</p>
+      <br>
+      <ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/meditation">
+   Meditation
+  </ion-button>
+    </ion-card-content>
+  </ion-card-header>
+</ion-card>
+</ion-slide>
+
+<ion-slide>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Chill Out Musics</ion-card-title>
+    <ion-card-content class="ion-text-justify">
+      <img src="assets/chillout.png">
+      <br>
+      <p>Listening to relaxing music helps to reduce your stress levels. There have been a number of studies that actually link relaxation music to a reduction in stress and anxiety. Soft and calming music clears the mind and can help you to focus on your breathing.</p>
+      <br>
+      <ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/chillout">
+   Chill Out Musics
+  </ion-button>
+    </ion-card-content>
+  </ion-card-header>
+</ion-card>
+</ion-slide>
+
+<ion-slide>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Peaceful Soundtracks</ion-card-title>
+    <ion-card-content class="ion-text-justify">
+      <img src="assets/peacefulsoundtracks.jpeg">
+      <br>
+      <p>Listening to music can have a tremendously relaxing effect on our minds and bodies, especially slow, quiet classical music. This type of music can have a beneficial effect on our physiological functions, slowing the pulse and heart rate, lowering blood pressure, and decreasing the levels of stress hormones.</p>
+      <br>
+      <ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/peaceful">
+   Peaceful<br>Soundtrack
+  </ion-button>
+    </ion-card-content>
+  </ion-card-header>
+</ion-card>
+</ion-slide>
+
+<ion-slide>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Quotes</ion-card-title>
+    <ion-card-content class="ion-text-justify">
+      <img src="assets/quotes.jfif">
+      <br>
+      <p>Quotes tell us of our own value system. Quotes are a fantastic motivational resource. You may print all of them off and also placed all of them no matter where you hang around for a fast and simple suggestion of your goals.</p>
+      <br>
+      <ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/quotes">
+   Quotes
+  </ion-button>
+    </ion-card-content>
+  </ion-card-header>
+</ion-card>
+</ion-slide>
+
+<ion-slide>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Exercise</ion-card-title>
+    <ion-card-content class="ion-text-justify">
+      <img src="assets/exercise.jfif">
+      <br>
+      <p>Exercise give us the overwhelming evidence, it seems obvious that we should all be physically active. It's essential if you want to live a healthy and fulfilling life into old age.</p>
+      <br>
+      <ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/exercise">
+   Exercise
+  </ion-button>
+    </ion-card-content>
+  </ion-card-header>
+</ion-card>
+</ion-slide>
+
+<ion-slide>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Yoga</ion-card-title>
+    <ion-card-content class="ion-text-justify">
+      <img src="assets/yoga.jfif">
+      <br>
+      <p>The relaxation techniques incorporated in yoga can lessen chronic pain, such as lower back pain, arthritis, headaches and carpal tunnel syndrome. Yoga can also lower blood pressure and reduce insomnia.</p>
+      <br>
+      <ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/yoga">
+   Yoga
+  </ion-button>
+    </ion-card-content>
+  </ion-card-header>
+</ion-card>
+</ion-slide>
+
+</ion-slides>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed" size="small">
+  <ion-fab-button routerLink="/task">
+    <ion-icon name="checkbox-outline"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+<!-- 
+<ion-button 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  routerLink="/advisor">
+   Advisor
+  </ion-button> -->
+
+</ion-content>
+

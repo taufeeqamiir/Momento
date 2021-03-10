@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="primary" class="ion-text-center">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/login">Login</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+
+  <h1>Create Your Account</h1>
+
+  <ion-item>
+    <ion-label position="floating">Your Name</ion-label>
+    <ion-input type="name" [(ngModel)]="user.name" required></ion-input >
+  </ion-item>
+ 
+  <ion-item>
+    <ion-label position="floating">Phone Number</ion-label>
+    <ion-input type="Phone" [(ngModel)]="user.Phone" required></ion-input >
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">E-mail</ion-label>
+    <ion-input type="email" [(ngModel)]="user.email" required></ion-input >
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password" [(ngModel)]="user.password" required></ion-input >
+  </ion-item>
+ 
+  <ion-button 
+  class="ion-padding" 
+  expand="full" 
+  shape="round" 
+  color="primary" 
+  (click)="register(user)">
+   REGISTER
+  </ion-button>
+
+  <p>By pressing 'Register' you agree to <br/>our terms & conditions.</p>
+
+</ion-content>

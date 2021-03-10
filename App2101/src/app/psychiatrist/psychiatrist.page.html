@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Psychiatrist</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-slides pager="true">
+
+  <ion-slide>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Dr Yeoh Mental Health Specialist</ion-card-title>
+        <ion-card-content>
+          <img src="assets/gambar1.jpg">
+          <br>
+          <p><br>Address: 31-1, Jalan Damai Niaga 1, Alam Damai, 56000 Cheras, Kuala Lumpur
+            <br><br> 
+            Opens 8:30AM <br>
+            Closes 5:30PM 
+             <br><br>
+            Phone: 012-244 0609</p>
+        </ion-card-content>
+      </ion-card-header>
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>People Psychology Solutions</ion-card-title>
+        <ion-card-content>
+          <img src="assets/gambar2.jpg">
+          <br>
+          <p><br>Address: 19.9, Menara 1MK, 1, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur
+            <br><br>
+            Opens 9:00AM
+            Closes 10:00PM 
+             <br><br>
+            Phone: 017-899 2207</p>
+        </ion-card-content>
+      </ion-card-header>
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>THE MIND FACULTY</ion-card-title>
+        <ion-card-content>
+          <img src="assets/gambar3.jfif">
+          <br>
+          <p><br>Address: Suite 11-G & 11-1 Jalan Solaris 4, Solaris Mont’ Kiara, 50480 Kuala Lumpur
+            <br><br>
+            Hours: 
+            Opens 9:00AM
+            Closes 6:00PM 
+             <br><br>
+            Phone: 03-6203 0359</p>
+        </ion-card-content>
+      </ion-card-header>
+    </ion-card>
+  </ion-slide>
+
+</ion-slides>
+
+  
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="callNumber()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
+
+<ion-footer>
+  <ion-item>
+    <ion-label floating>Phone No.</ion-label>
+    <ion-input type="tel" [(ngModel)]="phoneNumber"></ion-input>
+  </ion-item>
+</ion-footer>

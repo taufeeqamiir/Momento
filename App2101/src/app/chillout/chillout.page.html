@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Chill Out Musics</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Chill Out Musics</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-slides>
+
+    <ion-slide>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Music 1</ion-card-title>
+      <ion-card-content>
+        <video width="160" height="120" controls>
+          <source src="assets/chilloutmusic.mp4" type="video/mp4">
+          </video>
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Music 2</ion-card-title>
+      <ion-card-content>
+        <video width="160" height="120" controls>
+          <source src="assets/chillout2.mp4" type="video/mp4">
+          </video>
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+</ion-slide>
+
+</ion-slides>
+
+</ion-content>

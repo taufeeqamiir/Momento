@@ -1,0 +1,23 @@
+
+
+<ion-content no-scroll>
+<video autoplay muted loop webkit-playsinline playsinline src="assets/momentosplash.mp4"></video>
+<ion-slides autoplay="4000" pager loop centeredSlides>
+ <ion-slide *ngFor="let slide of slides">
+   <h4>{{slide.title}}</h4>
+   <p>{{slide.text}}</p>
+ </ion-slide>
+</ion-slides>
+
+
+
+</ion-content>
+
+<ion-button 
+  expand="full" 
+  shape="round" 
+  color="gold" 
+  routerLink="/home">
+   Get Started
+  </ion-button>
+

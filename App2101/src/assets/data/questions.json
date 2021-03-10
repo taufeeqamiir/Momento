@@ -1,0 +1,95 @@
+
+{
+  "questions": [
+    {
+      "no": "1",
+      "question": "During the past 4 weeks, have you had any problems with your work or daily life due to your physical health?",
+      "answers":[
+        {"optionId": "A", "option": "Yes"},
+        {"optionId": "B", "option": "No"}
+      ],
+      "correctOption": "B"
+    },
+    {
+      "no": "2",
+      "question": "During the past 4 weeks, have you had any problems with your work or daily life due to any emotional problems, such as feeling depressed, sad or anxious?",
+      "answers":[
+        {"optionId": "A", "option": "Yes"},
+        {"optionId": "B", "option": "No"}
+      ],
+      "correctOption": "B"
+    },
+    {
+      "no": "3",
+      "question": "Overall how would you rate your mental health?",
+      "answers":[
+        {"optionId": "A", "option": "Excellent"},
+        {"optionId": "B", "option": "Poor"}
+      ],
+      "correctOption": "A"
+    },
+    {
+      "no": "4",
+      "question": "Have you felt particularly low or down for more than 2 weeks in a row?",
+      "answers":[
+        {"optionId": "A", "option": "Very Often"},
+        {"optionId": "B", "option": "Not At All"}
+      ],
+      "correctOption": "B"
+    },
+    {
+      "no": "5",
+      "question": "During the past two weeks, how often has your mental health affected your relationships? ",
+      "answers":[
+        {"optionId": "A", "option": "Very Often"},
+        {"optionId": "B", "option": "Not At All"}
+      ],
+      "correctOption": "B"
+    },
+    {
+      "no": "6",
+      "question": "Have you ever been diagnosed with a mental disorder before?",
+      "answers":[
+        {"optionId": "A", "option": "Yes"},
+        {"optionId": "B", "option": "No"}
+      ],
+      "correctOption": "B"
+    },
+    {
+      "no": "7",
+      "question": "When did you last get your mental health examination done?",
+      "answers":[
+        {"optionId": "A", "option": "Between A Year Ago"},
+        {"optionId": "B", "option": "More Than A Year Ago"}
+      ],
+      "correctOption": "A"
+    },
+    {
+      "no": "8",
+      "question": "Is there a history of mental disorder in your family?",
+      "answers":[
+        {"optionId": "A", "option": "Yes"},
+        {"optionId": "B", "option": "No"}
+      ],
+      "correctOption": "B"
+    },
+    {
+      "no": "9",
+      "question": "Have you seen a therapist in the recent past?",
+      "answers":[
+        {"optionId": "A", "option": "Yes"},
+        {"optionId": "B", "option": "No"}
+      ],
+      "correctOption": "A"
+    },
+    {
+      "no": "10",
+      "question": "Are you currently taking any medication?",
+      "answers":[
+        {"optionId": "A", "option": "Yes"},
+        {"optionId": "B", "option": "No"}
+      ],
+      "correctOption": "A"
+    }
+  ]
+}
